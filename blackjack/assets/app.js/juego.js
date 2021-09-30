@@ -18,8 +18,8 @@ const btnPedir   = document.querySelector('#btnPedir');
 const btnDetener = document.querySelector('#btnDetener');
 const btnNuevo   = document.querySelector('#btnNuevo');
 
-const divCartasJugador     = document.querySelector('#jugador-cartas');
-const divCartasComputadora = document.querySelector('#computadora-cartas');
+const divCartasJugador     = document.querySelector('#jugador-carta');
+const divCartasComputadora = document.querySelector('#computadora-carta');
 
 const puntosHTML = document.querySelectorAll('small');
 
@@ -105,6 +105,7 @@ const turnoComputadora = ( puntosMinimos ) => {
 btnPedir.addEventListener('click', ( ) => {
 
     const carta = pedirCarta();
+    
     
     puntosJugador = puntosJugador + valorCarta( carta );
     puntosHTML[0].innerText = puntosJugador;

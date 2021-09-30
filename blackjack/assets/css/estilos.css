@@ -1,6 +1,6 @@
 html, body {
     margin: 0px;
-    background-color: #2F4F30;
+    background-color:#1e90ff;
     color: white;
 }
 
@@ -9,17 +9,41 @@ html, body {
     text-align: center;
     background-color: black;
     color: white;
-    padding: 20px;
+    padding: 10px;
     font-size: 25px;
+    font-family: serif,sans-serif,Arial, Helvetica, 'Times New Roman', Times;
 }
 
 .carta {
     position: relative;
-    width: 150px;
-    left: 100px;
-    margin-left: -75px;
+    width: 120px;
+    height:170px;  
+    margin:10px;
+    
 }
 
-#computadora-cartas, #jugador-cartas {
-    height: 240px;
+.jugador-carta{
+    font-size: 20px;
+    position: absolute;
+    padding: 10px;
+    right: 50px;
+    border:solid,1px;
+    
 }
+
+#computadora-cartas,#jugador-carta{
+    height:180px;
+    border:solid,1px;
+}
+
+#jugador-computadora{
+    right: 10px;
+    margin:10px;
+    border:solid,2px;
+
+}
+
+.computadora-carta{
+    margin-right:10px;
+}
+
