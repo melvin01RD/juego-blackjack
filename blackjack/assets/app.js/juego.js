@@ -70,10 +70,10 @@ const pedirCarta = ( ) => {
 
   pedirCarta();
 
-valorCarta(carta) {
+valorCarta(carta) 
     const valor = carta.substring(0, carta.length - 1);
     return isNaN(valor) ? (valor === 'A' ? 11 : 10) : valor * 1;
-  }
+  
 
 // turno de la computadora
 const turnoComputadora = ( puntosMinimos ) => {
