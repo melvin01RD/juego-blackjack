@@ -7,11 +7,13 @@ html, body {
 
 .titulo {
     text-align: center;
-    background-color: black;
+    background-color:color4 {color: #2c9eae;}
     color: white;
-    padding: 10px;
+    padding: 8px;
+    margin-top: 2px;
     font-size: 25px;
     font-family: serif,sans-serif,Arial, Helvetica, 'Times New Roman', Times;
+    .color1 {color: #12181d;}
 }
 
 .carta {
@@ -26,8 +28,9 @@ html, body {
     font-size: 20px;
     position: absolute;
     padding: 10px;
-    right: 50px;
+    margin-right: 45px;
     border:solid,1px;
+    margin-left: -75px;
     
 }
 
