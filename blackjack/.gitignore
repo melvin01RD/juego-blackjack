@@ -1,0 +1,10 @@
+# Ignorar la carpeta de pruebas
+
+/pruebas
+ 
+
+# Ignorar todos los archivos .txt en cualquier lugar del proyecto
+*.txt
+
+# No ignorar el archivo importante.txt en la carpeta de documentos
+!documentos/importantes.txt
